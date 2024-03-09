@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16.3)
+project(sample)
+add_executable(mylib mylibrary.cpp)
+add_executable ( sample sample.cpp )
+# target_link_libraries(sample mylib)
